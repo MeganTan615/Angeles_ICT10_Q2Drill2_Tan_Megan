@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drill #2</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+  
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
+</head>
+
+<body class="container mt-5">
+    <h1>SCHOOL CLUB MEMBERS</h1>
+    <p> put name and last name to add a new member.</p>
+
+    <div id="form">
+        <h3 class="mt-4">Add New Member</h3>
+        <input type="text" id="first_name" class="form-control mb-2" placeholder="First Name">
+        <input type="text" id="last_name" class="form-control mb-3" placeholder="Last Name">
+        <button type="button" py-click="add_member">ADD MEMBER</button>
+    </div>
+
+    <div id="output" class="mt-4"></div>
+    <py-script src="main.py"></py-script>
+
+</body>
+</html>
